@@ -38,6 +38,9 @@ const [myReferees,setMyReferees] = useState(false)
       const referees = () => {
        setMyReferees(!myReferees)
       }
+      const screenWidth  = window.screen.width;
+      const screenHeight = window.screen.height;
+      console.log(screenWidth,screenHeight);
   return (
     <div className='div-direction'>
       <div className='resumeSize'>
@@ -53,7 +56,7 @@ const [myReferees,setMyReferees] = useState(false)
         </div>
         <h3 className='objective' onClick={objective}>OBJECTIVES:</h3>
         {objective1 && <div className='objective1'>
-          <p className='my_obj'>To work in a dynamic environment where challenges 
+          <p>To work in a dynamic environment where challenges 
             can be turned into development and professional expertise, 
             with a positive oriented organization structure for the achievement of
              the peak goals of the organization and individuals.</p>

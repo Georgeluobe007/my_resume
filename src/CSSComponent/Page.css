@@ -36,9 +36,7 @@ div,h3,h4,p,li,ul,tr,td,table{
     margin-left: .5rem;
 }
 
-.objective1{
- margin-right: 29rem;
-}
+
 .biodata{
     margin-right: auto;
     cursor: pointer;
@@ -104,7 +102,22 @@ div,h3,h4,p,li,ul,tr,td,table{
 .second_ref{
     margin-top: 2rem;
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-width:400px){
+    .div-direction{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;  
+    }
+    .resumeSize{
+        width: 20rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+       
 .pictureWork2{
     width: 10rem;
     height: 2;
@@ -114,17 +127,17 @@ div,h3,h4,p,li,ul,tr,td,table{
     font-size: 1rem;
 }
 .abot_me{
-    font-size: .8rem; 
+    font-size: .7rem; 
 }
 .my_address{
-    font-size: .8rem;    
+    font-size: .7rem;    
 }
 .my_phone{
-    font-size: .8rem; 
+    font-size: .7rem; 
        
 }
 .objective{
-    margin-left: 10rem;
+    margin-right: auto;
     margin-top: 1rem;
     cursor: pointer;
    
@@ -133,45 +146,45 @@ div,h3,h4,p,li,ul,tr,td,table{
     margin-left: 10rem;
 }
 .biodata{
-    margin-left: 10rem;
+    margin-right: auto;
     cursor: pointer; 
 }
 .dateOfBirth{
-    margin-left: 10rem;
+    margin-right: auto;
 }
 .stateOfOrign{
-    margin-left: 10rem;
+    margin-right: auto;
 }
 .lga{
-    margin-left: 10rem;
+    margin-right: auto;
 }
 .religion{
-    margin-left: 10rem;
+    margin-right: auto;
 }
 .nationality{
-    margin-left: 10rem;
+    margin-right: auto;
 }
 .school{
-    margin-left: 10rem;
+    margin-right: auto;
     cursor: pointer;  
 }
 .school_attends{
-    margin-left: 10rem; 
+    margin-right: auto; 
 }
 .qualification{
-    margin-left: 10rem;
+    margin-right: auto;
     cursor: pointer;  
 }
 .workExpirience{
-    margin-left: 10rem;
+    margin-right: auto;
     cursor: pointer;   
 }
 .hobbies{
-    margin-left: 10rem;
+    margin-right: auto;
     cursor: pointer;    
 }
 .referees{
-    margin-left: 10rem;
+    margin-right: auto;
     cursor: pointer;   
 }
 }
