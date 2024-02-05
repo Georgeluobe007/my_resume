@@ -1,0 +1,177 @@
+.div-direction{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;  
+}
+.resumeSize{
+    width: 50rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.pictureWork{
+    width: 10rem;
+    height: 10rem;
+    margin-top: 1rem;
+    border-radius: 50%;
+}
+.pictureWork2{
+    width: 20rem;
+    height: 2;
+    margin-top: 1rem;
+   
+}
+div,h3,h4,p,li,ul,tr,td,table{
+    margin: 0;
+    padding: 0;
+}
+.objective{
+    margin-right: auto;
+    margin-top: 1rem;
+    cursor: pointer;
+    margin-left: .5rem;
+}
+
+.objective1{
+ margin-right: 29rem;
+}
+.biodata{
+    margin-right: auto;
+    cursor: pointer;
+    margin-left: .5rem;
+}
+.biodata1{
+    margin-right: auto; 
+    margin-left: .5rem;
+}
+.left-td{
+    margin-right: auto 
+}
+.dateOfBirth{
+    margin-right:auto    
+}
+.stateOfOrign{
+    margin-right:auto     
+}
+.religion{
+    margin-right:auto  
+}
+.nationality{
+    margin-right: auto;
+}
+.lga{
+    margin-right: auto; 
+}
+.school{
+    margin-right: auto;
+    cursor: pointer;
+    margin-left: .5rem;  
+}
+.mylist{
+    margin-right: auto; 
+    margin-left: 2rem;
+}
+.qualification{
+    margin-right: auto;
+    cursor: pointer;
+    margin-left: .5rem; 
+}
+.f_school{
+    margin-right: 2rem;
+}
+.workExpirience{
+    margin-right: auto;
+    cursor: pointer;
+    margin-left: .5rem;  
+}
+.hobbies{
+    margin-right: auto;
+    cursor: pointer;
+    margin-left: .5rem;  
+}
+.referees{
+    margin-right: auto;
+    cursor: pointer;
+    margin-left: .5rem;  
+}
+.ref_name{
+  margin-right: auto;
+}
+.second_ref{
+    margin-top: 2rem;
+}
+@media only screen and (max-width:500px){
+.pictureWork2{
+    width: 10rem;
+    height: 2;
+    margin-top: 1rem;
+}
+.my_name{
+    font-size: 1rem;
+}
+.abot_me{
+    font-size: .8rem; 
+}
+.my_address{
+    font-size: .8rem;    
+}
+.my_phone{
+    font-size: .8rem; 
+       
+}
+.objective{
+    margin-left: 10rem;
+    margin-top: 1rem;
+    cursor: pointer;
+   
+}
+.my_obj{
+    margin-left: 10rem;
+}
+.biodata{
+    margin-left: 10rem;
+    cursor: pointer; 
+}
+.dateOfBirth{
+    margin-left: 10rem;
+}
+.stateOfOrign{
+    margin-left: 10rem;
+}
+.lga{
+    margin-left: 10rem;
+}
+.religion{
+    margin-left: 10rem;
+}
+.nationality{
+    margin-left: 10rem;
+}
+.school{
+    margin-left: 10rem;
+    cursor: pointer;  
+}
+.school_attends{
+    margin-left: 10rem; 
+}
+.qualification{
+    margin-left: 10rem;
+    cursor: pointer;  
+}
+.workExpirience{
+    margin-left: 10rem;
+    cursor: pointer;   
+}
+.hobbies{
+    margin-left: 10rem;
+    cursor: pointer;    
+}
+.referees{
+    margin-left: 10rem;
+    cursor: pointer;   
+}
+}
