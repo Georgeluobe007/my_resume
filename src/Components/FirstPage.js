@@ -113,36 +113,7 @@ const [myReferees,setMyReferees] = useState(false)
                   </div>}
                   <h3 className='referees'onClick={referees} >REFEREES:</h3>
                   {myReferees && <div className='mylist'>
-                    <table>
-                     <tr>
-                      <div className='school_attends'><td>Mr. Innocent Ibhaluobe</td></div>
-                     </tr>
-                     <tr>
-                      <div className='school_attends'><td>3 Akinsanya Street Ago Palace Way</td></div>
-                     </tr>
-                     <tr>
-                      <div className='school_attends'><td>Okota, Lagos.</td></div>
-                     </tr>
-                     <tr>
-                      <div className='school_attends'><td>08032500270</td></div>
-                     </tr>
-                    </table>
-                     <div className='second_ref'>
-                     <table>
-                     <tr>
-                      <div className='school_attends'><td>Mr. Femi Johnson Alemija</td></div>
-                     </tr>
-                     <tr>
-                      <div className='school_attends'><td>Alidada Street, Ago Palace Way </td></div>
-                     </tr>
-                     <tr>
-                      <div className='school_attends'><td>Okota, Lagos.</td></div>
-                     </tr>
-                     <tr>
-                      <div className='school_attends'><td>07082854203</td></div>
-                     </tr>
-                    </table>
-                    </div>  
+                   <p>On Request</p>
                   </div>}
     </div>
     </div>
