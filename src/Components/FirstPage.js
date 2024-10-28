@@ -3,6 +3,8 @@ import '../CSSComponent/Page.css'
 import { Icon } from 'react-icons-kit'
 import {ic_keyboard_arrow_up} from 'react-icons-kit/md/ic_keyboard_arrow_up'
 import {ic_keyboard_arrow_down_twotone} from 'react-icons-kit/md/ic_keyboard_arrow_down_twotone'
+import {smallRight} from 'react-icons-kit/entypo/smallRight'
+import {smallDown} from 'react-icons-kit/entypo/smallDown'
 function FirstPage() {
 const [myPicture,setMyPicture] = useState(false)
 const [objective1,setObjective1] = useState(false)
@@ -58,8 +60,8 @@ const [myReferees,setMyReferees] = useState(false)
         <h4 className='my_phone'>Phone: 07069183891</h4>
         </div>
         <h3 className='objective' onClick={objective}>OBJECTIVES
-         {objective1 === false ? (<Icon icon={ic_keyboard_arrow_down_twotone} style={{width:"3rem"}}/>):
-         (<Icon icon={ic_keyboard_arrow_up}  style={{width:"3rem"}} />)}
+         {objective1 === false ? (<Icon icon={smallRight} style={{width:"3rem"}}/>):
+         (<Icon icon={smallDown}  style={{width:"3rem"}} />)}
          </h3>
         {objective1 && <div className='objective1'>
           <p>To work in a dynamic environment where challenges 
@@ -68,8 +70,8 @@ const [myReferees,setMyReferees] = useState(false)
              the peak goals of the organization and individuals.</p>
         </div> }
         <h3 className='biodata'onClick={biodata} >BIO DATA
-        {information === false ? (<Icon icon={ic_keyboard_arrow_down_twotone} style={{width:"3rem"}}/>):
-         (<Icon icon={ic_keyboard_arrow_up}  style={{width:"3rem"}} />)}
+        {information === false ? (<Icon icon={smallRight} style={{width:"3rem"}}/>):
+         (<Icon icon={smallDown}  style={{width:"3rem"}} />)}
         </h3>
         {information && <div className='biodata1'>
           <table>
@@ -96,8 +98,8 @@ const [myReferees,setMyReferees] = useState(false)
           </table>
           </div>}
           <h3 className='school'onClick={school} >EDUCATIONAL INSTITUTION
-          {institution === false ? (<Icon icon={ic_keyboard_arrow_down_twotone} style={{width:"3rem"}}/>):
-         (<Icon icon={ic_keyboard_arrow_up}  style={{width:"3rem"}} />)}
+          {institution === false ? (<Icon icon={smallRight} style={{width:"3rem"}}/>):
+         (<Icon icon={smallDown}  style={{width:"3rem"}} />)}
           </h3>
           {institution && <div className='mylist'>
           <ul>
@@ -106,8 +108,8 @@ const [myReferees,setMyReferees] = useState(false)
           </ul>
             </div>}
             <h3 className='qualification'onClick={qualification} >QUALIFICATIONS
-            {myqualification === false ? (<Icon icon={ic_keyboard_arrow_down_twotone} style={{width:"3rem"}}/>):
-            (<Icon icon={ic_keyboard_arrow_up}  style={{width:"3rem"}} />)}
+            {myqualification === false ? (<Icon icon={smallRight} style={{width:"3rem"}}/>):
+            (<Icon icon={smallDown}  style={{width:"3rem"}} />)}
             </h3>
             {myqualification && <div className='mylist'>
               <ul>
@@ -116,8 +118,8 @@ const [myReferees,setMyReferees] = useState(false)
              </ul>
               </div>}
               <h3 className='workExpirience'onClick={workExpirience} >WORK EXPERIENCE
-              {myWorkExpirience === false ? (<Icon icon={ic_keyboard_arrow_down_twotone} style={{width:"3rem"}}/>):
-              (<Icon icon={ic_keyboard_arrow_up}  style={{width:"3rem"}} />)}
+              {myWorkExpirience === false ? (<Icon icon={smallRight} style={{width:"3rem"}}/>):
+              (<Icon icon={smallDown}  style={{width:"3rem"}} />)}
               </h3>
               {myWorkExpirience && <div className='mylist'>
                 <ul>
@@ -126,15 +128,15 @@ const [myReferees,setMyReferees] = useState(false)
                 </ul>
                 </div>}
                 <h3 className='hobbies'onClick={hobbies} >HOBBIES
-                  {myhobbies === false ? (<Icon icon={ic_keyboard_arrow_down_twotone} style={{width:"3rem"}}/>):
-                 (<Icon icon={ic_keyboard_arrow_up}  style={{width:"3rem"}} />)}
+                  {myhobbies === false ? (<Icon icon={smallRight} style={{width:"3rem"}}/>):
+                 (<Icon icon={smallDown}  style={{width:"3rem"}} />)}
                 </h3>
                   {myhobbies && <div className='mylist'>
                   <h3 className='school_attends'>Reading and Driving</h3>
                   </div>}
                   <h3 className='referees'onClick={referees} >REFEREES
-                  {myReferees === false ? (<Icon icon={ic_keyboard_arrow_down_twotone} style={{width:"3rem"}}/>):
-                   (<Icon icon={ic_keyboard_arrow_up}  style={{width:"3rem"}} />)}
+                  {myReferees === false ? (<Icon icon={smallRight} style={{width:"3rem"}}/>):
+                   (<Icon icon={smallDown}  style={{width:"3rem"}} />)}
                   </h3>
                   {myReferees && <div className='mylist'>
                    <p>On Request</p>
