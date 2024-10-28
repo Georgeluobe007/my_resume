@@ -55,7 +55,7 @@ const [myReferees,setMyReferees] = useState(false)
        </div>
         <div className='heading'>
         <h3 className='my_name'> IBHALUOBE GODWIN GEORGE </h3>
-        <h3 className='abot_me'> fullStack web application(React.js,react-native(Mobile), typeScript, node.js, mySql and MongooseDB) </h3>
+        <h3 className='abot_me'> fullStack(React.js, react-native(Mobile), typeScript, node.js, mySql and MongoDB) </h3>
         <h4 className='my_address'>55a, Rasaki Oladega Street, Satellite Town Lagos.</h4>
         <h4 className='my_phone'>Phone: 07069183891</h4>
         </div>
